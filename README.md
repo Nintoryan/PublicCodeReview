@@ -7,7 +7,7 @@ This Unity game was intended to be integrated as a web view. Therefore, it has c
 ## Architecture
 I also was an architecture of this game. Here is a bit simplified schema of the architecture of the whole app.
 
-![image](https://github.com/Nintoryan/code_sample/assets/29882398/4ad72c29-92dc-46d5-8fd1-86d97e848c30)
+![image](https://github.com/Nintoryan/PublicCodeReview/assets/29882398/dba0a07c-f45b-4073-86c8-59d3ba6754e3)
 
 So in this public repository represented only internal Unity logic of this app.
 
