@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bb673082ffe4e44940528fdfc500424, type: 3}
+  m_Name: 12_PresentBoxData_BoyAndGirls_13.1.24
+  m_EditorClassIdentifier: 
+  ID: 2
+  Title: "\u043E\u0442 \u0421\u043B\u0430\u0434\u043A\u043E\u0435\u0436\u0435\u043A
+    \u0414\u0430\u043D\u0438 \u0438 \u041C\u0430\u043D\u0438"
+  BoxSprite: {fileID: 21300000, guid: c7a8e171142eedf4f81037f20a1d5c4d, type: 3}
+  OpenBoxSprite: {fileID: 21300000, guid: e9425767ae0620743810e1254dcb140e, type: 3}
+  OpenDate:
+    Day: 13
+    Month: 1
+    Year: 2024
+  PresentValue: {fileID: 11400000, guid: 4966c23bcdfd16a4f8d07b61294ffe1b, type: 2}

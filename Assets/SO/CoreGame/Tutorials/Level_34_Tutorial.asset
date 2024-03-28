@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb9179df47c291f499e7944da0da3acf, type: 3}
+  m_Name: Level_34_Tutorial
+  m_EditorClassIdentifier: 
+  Tasks:
+  - Type: 4
+    Task:
+      rid: 6098448302844936217
+  - Type: 1
+    Task:
+      rid: 6098448299147919362
+  - Type: 1
+    Task:
+      rid: 6098448302844936216
+  PlayModeTaskTypes: 040000000100000001000000
+  references:
+    version: 2
+    RefIds:
+    - rid: 6098448299147919362
+      type: {class: DragToContainerTask, ns: CoreGame.SO, asm: Assembly-CSharp}
+      data:
+        StartContainerPosition: {x: -1, y: 4}
+        StartObjectPosition: {x: 1, y: 0}
+        EndContainerPosition: {x: 0, y: 3}
+        EndObjectPosition: {x: 0, y: 0}
+        Help:
+        - State: 3
+          BubbleSize: 1
+          Text: "\u0427\u0442\u043E\u0431\u044B \u0440\u0430\u0437\u043E\u0431\u0440\u0430\u0442\u044C
+            <color=orange>\u041C\u0435\u0433\u0430-\u043A\u043E\u0440\u043E\u0431\u043A\u0443</color>,\n\u043F\u043E\u0441\u0442\u0430\u0432\u044C
+            \u043D\u0430 \u043D\u0435\u0435 <color=orange>5</color> \u043E\u0434\u0438\u043D\u0430\u043A\u043E\u0432\u044B\u0445\n\u043F\u0440\u0435\u0434\u043C\u0435\u0442\u043E\u0432"
+    - rid: 6098448302844936216
+      type: {class: DragToContainerTask, ns: CoreGame.SO, asm: Assembly-CSharp}
+      data:
+        StartContainerPosition: {x: 0, y: 4}
+        StartObjectPosition: {x: 0, y: 0}
+        EndContainerPosition: {x: 0, y: 3}
+        EndObjectPosition: {x: 1, y: 0}
+        Help: []
+    - rid: 6098448302844936217
+      type: {class: GreetingsTask, ns: CoreGame.SO, asm: Assembly-CSharp}
+      data:
+        Help:
+          State: 3
+          BubbleSize: 1
+          Text: "\u041D\u0435\u043A\u043E\u0442\u043E\u0440\u044B\u0435 \u043A\u043E\u0440\u043E\u0431\u043A\u0438\n\u0432\u043C\u0435\u0449\u0430\u044E\u0442
+            \u0432 \u0441\u0435\u0431\u044F \u0431\u043E\u043B\u044C\u0448\u0435\n\u043F\u0440\u0435\u0434\u043C\u0435\u0442\u043E\u0432.\n<color=orange>\u042D\u0442\u043E
+            \u041C\u0435\u0433\u0430-\u043A\u043E\u0440\u043E\u0431\u043A\u0438</color>!"

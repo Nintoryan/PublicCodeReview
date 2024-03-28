@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f62f1050693043fbaee25160d92d8331, type: 3}
+  m_Name: SnowPlayground
+  m_EditorClassIdentifier: 
+  Type: 1
+  ID: 3
+  Prefab: {fileID: 252539756394542905, guid: 46e651c14aa3e0840ae664873bd98804, type: 3}
+  PresentationModel:
+    Name: "\u0421\u043D\u0435\u0436\u043D\u0430\u044F \u043F\u043B\u043E\u0449\u0430\u0434\u043A\u0430"
+    Description: "\u041A\u0442\u043E \u0441\u043A\u0430\u0437\u0430\u043B, \u0447\u0442\u043E
+      \u0437\u0438\u043C\u043E\u0439 \L\u043D\u0430\u0434\u043E \u0434\u043E\u043C\u0430
+      \u0441\u0438\u0434\u0435\u0442\u044C? \L\u0411\u0435\u0433\u043E\u043C \u043D\u0430
+      \u0441\u0430\u043D\u043A\u0430\u0445 \u043A\u0430\u0442\u0430\u0442\u044C\u0441\u044F!"
+    Price: 4
+    RatingAfterConstruction: 800
+    RatingPerHour: 0
+    Icon: {fileID: 21300000, guid: 1d0af69d90005774fb8197ba550acf88, type: 3}
+    BigIcon: {fileID: 11400000, guid: 7693c7b630bb33d47a1557945bf9236e, type: 2}
+  MainerData:
+    RatingPerCooldown: 0
+    CooldownMinutes: 0
+  Characters: 1500000016000000

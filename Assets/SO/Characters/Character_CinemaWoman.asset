@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d302002b073b4cce905dfc2dbca8bf38, type: 3}
+  m_Name: Character_CinemaWoman
+  m_EditorClassIdentifier: 
+  Type: 19
+  PresentationModel:
+    Name: "\u0417\u0438\u043D\u0430\u0438\u0434\u0430 \u041A\u0438\u043D\u043E\u043B\u0435\u043D\u0442\u043E\u0432\u043D\u0430"
+    Color:
+      serializedVersion: 2
+      rgba: 4282349774
+    PortraitBody: {fileID: 21300000, guid: fd11303528901ef48a425256f923c008, type: 3}
+    PortraitEmotions:
+    - Reaction: 0
+      Sprite: {fileID: 21300000, guid: 35eb267c078d1a64eab87c2f6eb1446c, type: 3}

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>{{{ PRODUCT_NAME }}}</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      height: 100%;
+      width: 100%;
+      text-align: center;
+    }
+
+    @font-face {
+      font-family: "Dodo Rounded Black";
+      src: url('fonts/DodoRoundedBlack-Expanded.ttf');
+    }
+
+    @font-face {
+      font-family: "Dodo Rounded v2";
+      src: url('fonts/DodoRounded_v2-Bold.otf');
+    }
+
+    @font-face {
+      font-family: "Dodo Rounded v2 Regular";
+      src: url('fonts/DodoRounded_v2-Regular.otf');
+    }
+
+
+    #main-loading-wrapper{
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-image: url(loadingBG.png);
+      background-size: cover;
+    }
+
+    #wrapper {
+      position: absolute;
+      bottom: 42vh;
+      left: 20vw;
+      width: 60vw;
+    }
+
+    #loading-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0.2vh;
+      width: 100%;
+    }
+
+    #unity-canvas:before {
+      content: "";
+      background-color: #4E86B7;
+    }
+
+    #unity-canvas {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      background-image: url(loadingBG.png);
+      background-size: cover;
+    }
+
+    #progressbar-wrapper{
+      padding: 17px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 7vw;
+      width: 100%;
+    }
+
+    #unity-loading-bar {
+     
+      display: flex;
+      left: 5vw;
+      top: 10vh;
+      width: 80%;
+      height: 100%;
+      background-color: #FDF5E7;
+      border: 3px solid #FDF5E7;
+      border-radius: 10vw;
+      text-align: center;
+    }
+
+    #stars{
+      position: absolute;
+      z-index: 5;
+      height: 5vw;
+      left: 7vw;
+    }
+
+    #unity-progress-bar {
+      left: 0%;
+      top: 0%;
+      width: 15%;
+      /* opacity: 1%; */
+      background-color: #FA8322;
+      border-radius: 10vw;
+      transition: 400ms linear;
+      z-index: 1;
+      animation: loading 10s ease-in-out forwards;
+    }
+
+    #unity-progress-logo {
+      color: #FDF5E7;
+     
+      top: 40vh;
+      left: 25%;
+      flex-shrink: 0;
+      white-space: nowrap;
+      text-align: center;
+      font-family: "Dodo Rounded Black";
+      font-size: 7vw;
+      font-style: normal;
+      font-weight: 900;
+      line-height: normal;
+    }
+
+    #unity-progress-text {
+      color: #FDF5E7;
+     
+      top: 45vh;
+      left: 35%;
+      flex-shrink: 0;
+      text-align: center;
+      font-family: "Dodo Rounded v2";
+      font-size: 4vw;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+/*  */
+    #loading-qots {
+      flex-shrink: 0;
+      text-align: center;
+      font-family: "Dodo Rounded v2 Regular";
+      font-size: 3vw;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      color: #FDF5E7;
+    }
+
+    @keyframes loading{
+      to {
+        width: 95%;
+      }
+    }
+    
+  </style>
+</head>
+
+<body>
+  <canvas id="unity-canvas"></canvas>
+  <div id="main-loading-wrapper">
+  <div id="wrapper">
+    <div id = "loading-wrapper">
+      <div id="unity-progress-logo">Додо деревня</div>
+      <div id="unity-progress-text">НОВОГОДНЯЯ СКАЗКА</div>
+      <div id="progressbar-wrapper">
+      <div id="unity-loading-bar"><img id="stars" src="stars.png" alt="_"><div id="unity-progress-bar"> </div> </div>
+    </div>
+      <p id="loading-qots"></p>
+    </div>
+  </div>
+  <script src="Build/{{{ LOADER_FILENAME }}}"></script>
+  <script>
+    
+    const maxPixelRatioMobile = 2.0;
+    const maxPixelRatioDesktop = 1.5;
+    var txtArray = ["Сажаем ёлки", "Лепим снеговиков", "Подключаем гирлянды", "Смотрим новогодние фильмы", "Печем пиццу", "Нарезаем оливье", "Расчищаем сугробы", "Пакуем подарки", "Учим стихи", "Включаем музыку" ]
+    var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    var maxDevicePixelRatio = isMobile? maxPixelRatioMobile: maxPixelRatioDesktop;
+    var pixelRatio = Math.min(window.devicePixelRatio, maxDevicePixelRatio);
+
+    var buildUrl = "Build";
+    var loaderUrl = buildUrl + "/{{{ LOADER_FILENAME }}}";
+    var config = {
+      dataUrl: buildUrl + "/{{{ DATA_FILENAME }}}",
+      frameworkUrl: buildUrl + "/{{{ FRAMEWORK_FILENAME }}}",
+      codeUrl: buildUrl + "/{{{ CODE_FILENAME }}}",
+#if MEMORY_FILENAME
+        memoryUrl: buildUrl + "/{{{ MEMORY_FILENAME }}}",
+#endif
+#if SYMBOLS_FILENAME
+        symbolsUrl: buildUrl + "/{{{ SYMBOLS_FILENAME }}}",
+#endif
+      streamingAssetsUrl: "StreamingAssets",
+      companyName: "{{{ COMPANY_NAME }}}",
+      productName: "{{{ PRODUCT_NAME }}}",
+      productVersion: "{{{ PRODUCT_VERSION }}}",
+      devicePixelRatio: pixelRatio
+    };
+
+
+    var canvas = document.querySelector("#unity-canvas");
+    var loadingBar = document.querySelector("#unity-loading-bar");
+    var progressBar = document.querySelector("#unity-progress-bar");
+    var progressLogo = document.querySelector("#unity-progress-logo");
+    var progressText = document.querySelector("#unity-progress-text");
+    var wrapper = document.querySelector("#main-loading-wrapper");
+    var loadingQots = document.querySelector("#loading-qots");
+    var access_token = "";
+    var i = 0;
+
+    var script = document.createElement("script");
+    script.src = loaderUrl;
+    var ss;
+    var updated = false;
+    script.onload = function() {
+      loadingQots.innerHTML = `${txtArray[i] + "..."}`;
+      var timeStamp = Date.now();
+      createUnityInstance(canvas, config, function(progress) {
+        var timeLoad = Date.now();
+        var timeDiff = timeLoad - timeStamp;
+        if(updated){
+          updated = false;
+        }
+        else{
+          timeStamp = timeLoad
+          updated = true;
+        }
+        console.log("LOADING TIME: ", timeDiff);
+        if(updated && timeDiff > 20){
+          i+=1;
+          changeQuotes(i);
+        }
+      })
+      .then(function(unityInstance) {
+        
+        ss = unityInstance;
+        progressBar.style.width = 100 + "%";
+        setTimeout(()=>{wrapper.style.display = "none";}, 500);
+
+        log(`window.location.href:${window.location.href}`);
+        log(`window.location.hash:${window.location.hash}`);
+
+        ss.SendMessage("JSApi","SetUID", decodeURIComponent(window.location.hash));
+
+      }).catch(function(message) {
+        console.log(message);
+      });
+    };
+
+    window.onblur = () => {
+      if(ss != null){
+        ss.SendMessage("JSApi","DisableAudio");
+      }
+    }
+
+    window.onfocus = () => {
+      if(ss != null){
+        ss.SendMessage("JSApi","EnableAudio");
+      }
+    }
+
+    document.body.appendChild(script); 
+
+
+function log(msg)
+{
+  if(ss != null && ss != undefined)
+    ss.SendMessage("JSApi", "LogUnity", msg);
+}
+
+function sendUrl(url)
+{
+  const data = {
+    type: "openURL",
+    url: url
+  }
+
+  window?.parent.postMessage(data, "*");
+}
+
+function showCopyToClipboard(text){
+    const data = {
+      type: "handleButton",
+      value: text
+    }
+    window?.parent.postMessage(data, "*");
+}
+function hideCopyToClipboard(){
+    window?.parent.postMessage("closeButton", "*");
+}
+
+function closeGame(){
+    window?.parent.postMessage("closeGameRider", "*");
+}
+
+function changeQuotes(i) {
+  if (i >= txtArray.length) {
+    i = Math.floor(Math.random() * txtArray.length);
+  }
+  loadingQots.innerHTML = `${txtArray[i]}...`;
+}
+
+window.addEventListener("message", (e) => {
+  if(e.data === "msgDone!"){
+    ss.SendMessage('JSApi','SetCopied');
+  }
+  if(e.data === "onFocus")
+  {
+    ss.SendMessage("JSApi","EnableAudio");
+  }
+  if(e.data === "onBlur")
+  {
+    ss.SendMessage("JSApi","DisableAudio");
+  }
+})
+  </script>
+</body>
+
+</html>

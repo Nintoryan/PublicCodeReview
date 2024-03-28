@@ -1,0 +1,37 @@
+namespace Web.ResponesStructs
+{
+    public enum WebField
+    {
+        none,
+        building,
+        currency,
+        exit_time,
+        player_progress,
+        core_game_level,
+        opened_presents,
+        scenes_watched_indexes,
+        win_number,
+        daily_tasks,
+        player_time_zone,
+        base_utc_offset,
+        tree_bank,
+        visit_presents,
+        existing_characters,
+        construction_site,
+        purchased_buildings, 
+        energy_data,
+        core_game_shuffles,
+        core_game_hints,
+        new_year_projects_unlocked,
+        new_year_projects_states,
+        player_name,
+        village_tutorials,
+        dodo_birds_balance,
+        received_birds_gifts,
+        last_started_core_game_level,
+        core_game_analytics,
+        where_presents_watched_2,
+        year_pizza_info_watched,
+        ice_cubes_data
+    }
+}

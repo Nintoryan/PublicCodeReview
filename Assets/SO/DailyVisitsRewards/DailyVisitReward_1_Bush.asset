@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd2901b4088349b887ffc57e86f9f44e, type: 3}
+  m_Name: DailyVisitReward_1_Bush
+  m_EditorClassIdentifier: 
+  Letter_Greetings: 
+  Letter_Text: 
+  Letter_Sign: 
+  Icon: {fileID: 21300000, guid: 6bc36a75aba0e0d4790c64316ee7218e, type: 3}
+  Type: 2
+  BuildingID: 0

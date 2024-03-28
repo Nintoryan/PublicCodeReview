@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f62f1050693043fbaee25160d92d8331, type: 3}
+  m_Name: BigfootsHouse
+  m_EditorClassIdentifier: 
+  Type: 1
+  ID: 19
+  Prefab: {fileID: 252539756394542905, guid: e12b07427f3e77f42b4d209717829f44, type: 3}
+  PresentationModel:
+    Name: "\u0414\u043E\u043C\u0438\u043A \u0401\u0442\u0438"
+    Description: "\u0423\u044E\u0442\u043D\u044B\u0439 \u0434\u043E\u043C\u0438\u043A
+      \u0441 \u043A\u0440\u0435\u0441\u043B\u043E\u043C-\u043A\u0430\u0447\u0430\u043B\u043A\u043E\u0439.
+      \L\u0401\u0442\u044F \u0441\u043C\u043E\u0436\u0435\u0442 \u043B\u044E\u0431\u043E\u0432\u0430\u0442\u044C\u0441\u044F
+      \u0414\u0435\u0440\u0435\u0432\u043D\u0435\u0439\n\u0438 \u043F\u0440\u0438\u0433\u043B\u0430\u0448\u0430\u0442\u044C
+      \u0436\u0438\u0442\u0435\u043B\u0435\u0439 \u0432 \u0433\u043E\u0441\u0442\u0438!"
+    Price: 20
+    RatingAfterConstruction: 4000
+    RatingPerHour: 0
+    Icon: {fileID: 21300000, guid: a6c07d6dd9fd4504497251aaf6c31d54, type: 3}
+    BigIcon: {fileID: 11400000, guid: 9672e9ef02de9864c997fd3bca4eff10, type: 2}
+  MainerData:
+    RatingPerCooldown: 0
+    CooldownMinutes: 0
+  Characters: 10000000

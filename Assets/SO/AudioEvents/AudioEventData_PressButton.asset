@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9a0b0f0147ba1f4fbf4bc98973b2ed4, type: 3}
+  m_Name: AudioEventData_PressButton
+  m_EditorClassIdentifier: 
+  Type: 9
+  Clips:
+  - {fileID: 8300000, guid: 1f8d779811aaba547bb6635c0f370fbe, type: 3}
+  Volume:
+    MinValue: 1
+    MaxValue: 1
+  Pitch:
+    MinValue: 1.0018657
+    MaxValue: 1.0018657

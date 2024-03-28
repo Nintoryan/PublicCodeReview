@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd2901b4088349b887ffc57e86f9f44e, type: 3}
+  m_Name: PresentValue_Decoration_Unique_BoyAndGirl_(Arc_2)_12
+  m_EditorClassIdentifier: 
+  Letter_Greetings: "\u041F\u0440\u0438\u0432\u0435\u0442!"
+  Letter_Text: "\u0421\u041F\u0410\u0421\u0418\u0411\u041E \u0417\u0410 \u041C\u041E\u0420\u0415
+    \u041A\u041E\u041D\u0424\u0415\u0422\n\u0418 \u0412\u041A\u0423\u0421\u041D\u042B\u0425
+    \u041F\u0418\u0420\u041E\u0416\u0415\u041D\u042B\u0425,\nC \u041D\u041E\u0412\u042B\u041C
+    \u0413\u041E\u0414\u041E\u041C!!!\n\L\u0416\u0415\u041B\u0410\u0415\u041C \u041B\u0423\u0427\u0428\u0418\u0425
+    \u041F\u041E\u0414\u0410\u0420\u041A\u041E\u0412\n\u041E\u0422 \u0414\u0415\u0414\u0410
+    \u041C\u041E\u0420\u041E\u0417\u0410 \u0418 \u0412\u0415\u0421\u0401\u041B\u042B\u0425\n\u041A\u0410\u041D\u0418\u041A\u0423\u041B!"
+  Letter_Sign: "\u0421\u043B\u0430\u0434\u043A\u043E\u0435\u0436\u043A\u0438 \u0414\u0430\u043D\u044F
+    \u0438 \u041C\u0430\u043D\u044F \n\u0438 \u043D\u0430\u0448 \u0425\u041E\u041C\u042F\u041A
+    \u042F\u0428\u041A\u0410"
+  Icon: {fileID: 21300000, guid: df1b79929e754924c82f71f08c9f1467, type: 3}
+  Type: 2
+  BuildingID: 21

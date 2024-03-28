@@ -1,0 +1,29 @@
+﻿namespace VillageGame.Services.CutScenes.CustomActions
+{
+    public enum CustomCutsceneActionType
+    {
+        None,
+        ClearBigSnowdrift,
+        ShowEnterNameWindow,
+        CoreGameTutorial,
+        ArrivalOfGuidAnimation,
+        CalendarTutorial,
+        AfterTenMinutesCurtain,
+        PineCone,
+        GrownChristmasTree,
+        HelloPostman,
+        SmallSnowdriftTutorial,
+        BuildTutorial,
+        SnowFlakeFactory_SmallSnow,
+        SnowFlakeFactory_BigSnow,
+        SnowFlakeFactory_Curtains_1,
+        SnowFlakeFactory_Curtains_2,
+        DailyTasksTutorial,
+        OpenSuitcase,
+        EndStoryCustomAction,
+        SculptureParkDestroyed,
+        SculptureParkRestored,
+        BigfootAppear,
+        BigfootDisappear
+    }
+}

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68ea40017ca2f56429334ac7819eff9a, type: 3}
+  m_Name: ProgressionConfig
+  m_EditorClassIdentifier: 
+  playerLevels:
+  - {fileID: 11400000, guid: edc1c193175b923408b3ddf0cb60634b, type: 2}
+  - {fileID: 11400000, guid: 04ee6b8bb3c1c0247b3b312e93f14db6, type: 2}
+  - {fileID: 11400000, guid: 20cef6efb6349ba49b2235637c3f88c7, type: 2}
+  - {fileID: 11400000, guid: a61a1342fc21254459641e6d844f10f1, type: 2}
+  - {fileID: 11400000, guid: a36602f138702264cb8766c6f144580a, type: 2}
+  - {fileID: 11400000, guid: 459cc3d24bf4f8b4d93faee41e7f6d22, type: 2}
+  - {fileID: 11400000, guid: fb37818b3497829459f3258f0c98b029, type: 2}
+  - {fileID: 11400000, guid: 2cffe2526f4f9fa44a3ced23bd916eda, type: 2}
+  - {fileID: 11400000, guid: 4d75d7b06e8f16540818eeb5bbf138c9, type: 2}
+  - {fileID: 11400000, guid: a4bc2c3d0bc024a4fa2c9562f96d69f8, type: 2}
+  - {fileID: 11400000, guid: ba9acb0f576f09f43b6edf5139b270b0, type: 2}
+  - {fileID: 11400000, guid: afd476edd56e3964cb1d884d41a298fd, type: 2}
+  - {fileID: 11400000, guid: f924a1f9747741c4caa96d5acc1275ca, type: 2}
+  - {fileID: 11400000, guid: cf72b6994d37b9a458741464804d47aa, type: 2}
+  - {fileID: 11400000, guid: eaca06e3a36468e4f82e4245c76e32b9, type: 2}
+  - {fileID: 11400000, guid: c393524c6a88ce845abf189deef2924a, type: 2}
+  - {fileID: 11400000, guid: 9e9632502e659af4cad4b7d88b2f8b34, type: 2}
+  - {fileID: 11400000, guid: 34296096731627c468456594df03e28e, type: 2}
+  - {fileID: 11400000, guid: d33c9ec454d43d042a17fc21c1bc4962, type: 2}
+  - {fileID: 11400000, guid: e6728a499cf76a0469a0056a6bb6455a, type: 2}

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb9179df47c291f499e7944da0da3acf, type: 3}
+  m_Name: Level_9_Tutorial
+  m_EditorClassIdentifier: 
+  Tasks:
+  - Type: 4
+    Task:
+      rid: 6098448302844936211
+  - Type: 1
+    Task:
+      rid: 6098448302844936210
+  PlayModeTaskTypes: 0400000001000000
+  references:
+    version: 2
+    RefIds:
+    - rid: 6098448302844936210
+      type: {class: DragToContainerTask, ns: CoreGame.SO, asm: Assembly-CSharp}
+      data:
+        StartContainerPosition: {x: 1, y: 4}
+        StartObjectPosition: {x: 0, y: 0}
+        EndContainerPosition: {x: 1, y: 3}
+        EndObjectPosition: {x: 2, y: 0}
+        Help:
+        - State: 3
+          BubbleSize: 1
+          Text: "\u0427\u0442\u043E\u0431\u044B \u043E\u0442\u043A\u0440\u044B\u0442\u044C\n<color=orange>\u0417\u0430\u0431\u043B\u043E\u043A\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u0443\u044E
+            \u043A\u043E\u0440\u043E\u0431\u043A\u0443</color>,\n\u0441\u043E\u0441\u0442\u0430\u0432\u044C
+            \u0443\u043A\u0430\u0437\u0430\u043D\u043D\u043E\u0435 \u043D\u0430 \u0437\u0430\u043C\u043A\u0435\n\u043A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E
+            \u043A\u043E\u043C\u0431\u0438\u043D\u0430\u0446\u0438\u0439"
+    - rid: 6098448302844936211
+      type: {class: GreetingsTask, ns: CoreGame.SO, asm: Assembly-CSharp}
+      data:
+        Help:
+          State: 3
+          BubbleSize: 1
+          Text: "\u042D\u0442\u043E \u0447\u0442\u043E-\u0442\u043E \u043D\u043E\u0432\u0435\u043D\u044C\u043A\u043E\u0435!\n\u041A\u043E\u0440\u043E\u0431\u043A\u0438
+            \u043D\u0430 \u044D\u0442\u043E\u043C \u0443\u0440\u043E\u0432\u043D\u0435\n<color=orange>\u0437\u0430\u0431\u043B\u043E\u043A\u0438\u0440\u043E\u0432\u0430\u043D\u044B</color>"

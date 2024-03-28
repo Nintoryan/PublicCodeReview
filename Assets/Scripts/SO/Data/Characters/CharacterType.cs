@@ -1,0 +1,38 @@
+﻿namespace SO.Data.Characters
+{
+    public enum CharacterType
+    {
+        None,
+        Postman,
+        Artist,
+        Cook,
+        FigureSkater,
+        TrainDriver,
+        Girl,
+        Boy,
+        Barista,
+        Sculptor,
+        DancerMan,
+        DancerWomen,
+        ElfMan,
+        ElfWomen,
+        Skier,
+        Snowman,
+        BigFoot,
+        ForestBoy,
+        Glassblower,
+        CinemaWoman,
+        Guide,
+        Snowboarder,
+        ChildSled,
+        Showman,
+        ActionRabbit,
+        ActionDragon,
+        Grandma,
+        Grandpa,
+        Designer,
+        Deer,
+        ActorDragon,
+        ActorRabbit
+    }
+}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f62f1050693043fbaee25160d92d8331, type: 3}
+  m_Name: Decoration_40_(Tree_3)
+  m_EditorClassIdentifier: 
+  Type: 2
+  ID: 40
+  Prefab: {fileID: 3656762644234941636, guid: e65391a5521cb05418420a902e749f5b, type: 3}
+  PresentationModel:
+    Name: "\u041C\u043E\u0440\u043E\u0437\u043D\u043E\u0435 \u0434\u0435\u0440\u0435\u0432\u043E"
+    Description: "\u0413\u0438\u0440\u043B\u044F\u043D\u0434\u044B \u0441\u0438\u044F\u044E\u0442
+      \u0435\u0449\u0435 \u044F\u0440\u0447\u0435 \n\u0432 \u043E\u0442\u0440\u0430\u0436\u0435\u043D\u0438\u0438
+      \u0437\u0430\u043B\u0435\u0434\u0435\u043D\u0435\u0432\u0448\u0435\u0433\u043E
+      \n\u0434\u0435\u0440\u0435\u0432\u0430"
+    Price: 5
+    RatingAfterConstruction: 20
+    RatingPerHour: 0
+    Icon: {fileID: 21300000, guid: cff83bad0ba97104b996dee89017dc0f, type: 3}
+  MainerData:
+    RatingPerCooldown: 0
+    CooldownMinutes: 0
+  Characters: 

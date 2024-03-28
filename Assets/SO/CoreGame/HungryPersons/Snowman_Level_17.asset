@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33c3f0c96cdb1a241a604470a911ab3e, type: 3}
+  m_Name: Snowman_Level_17
+  m_EditorClassIdentifier: 
+  PersonSprite: {fileID: 21300000, guid: 77ce5fef27942e1499693f23bfdfb9e7, type: 3}
+  RequiredObjects: 010000000a000000190000000f0000001000000023000000

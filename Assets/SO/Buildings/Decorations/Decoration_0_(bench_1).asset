@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f62f1050693043fbaee25160d92d8331, type: 3}
+  m_Name: Decoration_0_(bench_1)
+  m_EditorClassIdentifier: 
+  Type: 2
+  ID: 0
+  Prefab: {fileID: 470906064398231286, guid: 842df3e3b2427464e8f85a90daee3a65, type: 3}
+  PresentationModel:
+    Name: "\u041A\u0430\u043A\u0430\u044F-\u0442\u043E \u0434\u0435\u043A\u043E\u0440\u0430\u0446\u0438\u044F
+      \u21160"
+    Description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043A\u0430\u043A\u043E\u0439-\u0442\u043E
+      \u0434\u0435\u043A\u043E\u0440\u0430\u0446\u0438\u0438(bench 1)"
+    Price: 500
+    RatingAfterConstruction: 10
+    Icon: {fileID: 21300000, guid: 3ad45576035bf664f9bc019e557ad929, type: 3}
+  MainerData:
+    RatingPerCooldown: 0
+    CurrencyPerCooldown: 0
+    CooldownMinutes: 0
+  Characters: 

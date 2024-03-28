@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c4df7acf35588c448da639fdce9e501, type: 3}
+  m_Name: 14
+  m_EditorClassIdentifier: 
+  RatingRequirement: 2600
+  RatingCapacity: 0
+  CurrencyCapacity: 0
+  UnlockedBuildings:
+  - {fileID: 11400000, guid: 9b3fbdc12506dbc4099821df9643c3f7, type: 2}
+  - {fileID: 11400000, guid: 9f4701dcdafdb2542929e146fe992a1d, type: 2}
+  NewYearProjects: []

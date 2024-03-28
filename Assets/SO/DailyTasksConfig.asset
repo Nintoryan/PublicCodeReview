@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1234a0c9029e404f86fbd059f3be1f7d, type: 3}
+  m_Name: DailyTasksConfig
+  m_EditorClassIdentifier: 
+  MaxTasksCount: 5
+  RealLifeTasks:
+  - {fileID: 11400000, guid: 5c02df2fa9908514bbb78b6d06bfc731, type: 2}
+  - {fileID: 11400000, guid: 3981e0989e99c04408486be3105e5247, type: 2}
+  - {fileID: 11400000, guid: f7d529c802a0c06478d9883ac8ea7a64, type: 2}
+  - {fileID: 11400000, guid: d4448f12ad5ea9849a7b031fa92bc603, type: 2}
+  - {fileID: 11400000, guid: e047de9adbef0b54da2572a9c11a33f8, type: 2}
+  - {fileID: 11400000, guid: 39266a0bef732184aa42b57ebc2a7ab1, type: 2}
+  - {fileID: 11400000, guid: e23155697c27d684b8e6bce70a1817bd, type: 2}
+  - {fileID: 11400000, guid: 7348af18189a9f540bb9b477c5dc5bdd, type: 2}
+  - {fileID: 11400000, guid: 7cf4567a2e76689418fb19548fc83008, type: 2}
+  - {fileID: 11400000, guid: 58c75ecd330315243b8d1c57293537e6, type: 2}
+  - {fileID: 11400000, guid: e207777a4fbd55d47a8acea4b269a261, type: 2}
+  - {fileID: 11400000, guid: da9ebab84e98917428b31b0db72d70b4, type: 2}
+  - {fileID: 11400000, guid: 84a4c22b0cab70a48925d497621b0a5c, type: 2}
+  - {fileID: 11400000, guid: cd9a79ee5740e844f9a5931521a3bf51, type: 2}
+  BuildHouseTasks:
+  - {fileID: 11400000, guid: db8a2050c9b5b99488a03653afce60ab, type: 2}
+  - {fileID: 11400000, guid: 8781ec01bd79a884793639f5ca0ad76c, type: 2}
+  - {fileID: 11400000, guid: c44435310e4043e4f8b7b703b6167566, type: 2}
+  - {fileID: 11400000, guid: 2349324d3dfa974458ee4ca9167cdbff, type: 2}
+  - {fileID: 11400000, guid: 8528161b77142b148941814048386895, type: 2}
+  - {fileID: 11400000, guid: 1012765117dbb5643beaea1ecc8e13f9, type: 2}
+  - {fileID: 11400000, guid: e8499ebe8d7159f4d9d89e8c1d8b2ce2, type: 2}
+  - {fileID: 11400000, guid: 06dffd30a920e874a901f71434e4c965, type: 2}
+  - {fileID: 11400000, guid: a7ffec1908df9c745b41c153592a2f06, type: 2}
+  - {fileID: 11400000, guid: 00be1d1533d57a444b54f020e0875434, type: 2}
+  - {fileID: 11400000, guid: 56591218002d37d4bbaf930eef11adac, type: 2}
+  - {fileID: 11400000, guid: c5f902c671396bf40866c04c7fb56e02, type: 2}
+  - {fileID: 11400000, guid: 03739607dc3f5d549a351ce4253ab628, type: 2}
+  - {fileID: 11400000, guid: 66b478c0a1889924980bf644160e942e, type: 2}
+  - {fileID: 11400000, guid: b0dbcd85dc50fe849bf4c51fd50c2ef4, type: 2}
+  - {fileID: 11400000, guid: 1bf99ade71e1fc346b16f5fe7d43145b, type: 2}
+  - {fileID: 11400000, guid: a86a369da416f5145bbcbff1962768b8, type: 2}
+  - {fileID: 11400000, guid: b22c4fdbf269e5c4ba288d025f33f738, type: 2}
+  - {fileID: 11400000, guid: 7be0f6f3d1fc6234c90984ee3664885a, type: 2}
+  BuildDecorationTasks:
+  - {fileID: 11400000, guid: bad172e12081bab47b2e8d8736b4b4a7, type: 2}
+  - {fileID: 11400000, guid: 5969f281401ab8647b0592ade071c42f, type: 2}
+  - {fileID: 11400000, guid: 5ea5268e9e806a247b68c0b7277c9edf, type: 2}
+  - {fileID: 11400000, guid: ab030c168c3207f428beaac7ddbee849, type: 2}
+  - {fileID: 11400000, guid: 72ae4377656a5f8439ce14baf53abdd1, type: 2}
+  - {fileID: 11400000, guid: e8835184e87975c40a733e82c1f2fad7, type: 2}
+  - {fileID: 11400000, guid: f4834d4e14ba93445912e40724bdf533, type: 2}
+  - {fileID: 11400000, guid: 68a350346d89e4d418112885e7f97295, type: 2}
+  - {fileID: 11400000, guid: 0148942be75048d4388a9d06247a1ded, type: 2}
+  - {fileID: 11400000, guid: bbc7ffbc47040304b971dd3744363f32, type: 2}
+  - {fileID: 11400000, guid: 833768c2300d8134ab54d961307a7cf7, type: 2}
+  - {fileID: 11400000, guid: 884ff04d286db004d8ceb0f74f84181c, type: 2}
+  - {fileID: 11400000, guid: df13ade131a6bc649b6b7dfeecfaf0f2, type: 2}
+  - {fileID: 11400000, guid: b95ea893f659aa94c95e5c8ee19bc6e1, type: 2}
+  - {fileID: 11400000, guid: 2628a64e5da365b4783b96ccf623641f, type: 2}
+  - {fileID: 11400000, guid: 428e0afe89384df44926412752dca322, type: 2}
+  - {fileID: 11400000, guid: 5861ae2f4b729fb4b8370b6abebef74c, type: 2}
+  - {fileID: 11400000, guid: a25506ec77100a7498f1fad78af74a88, type: 2}
+  - {fileID: 11400000, guid: fa2aa528a0319ec40af6683d3b406680, type: 2}
+  - {fileID: 11400000, guid: d6def8198678b344baceeeef08449e4a, type: 2}
+  LevelUpTasks:
+  - {fileID: 11400000, guid: cef7c67d30a138f43a18c19f21393994, type: 2}
+  - {fileID: 11400000, guid: 4b85273ad4151654bb06e27de6bda3a3, type: 2}
+  - {fileID: 11400000, guid: a1cfd95a4c961ba4680938b7afe1591a, type: 2}
+  - {fileID: 11400000, guid: 1c24db8f16dc4924db5d39db5f2b082e, type: 2}
+  - {fileID: 11400000, guid: 617a11323604aaf4786bce81e08c464d, type: 2}
+  - {fileID: 11400000, guid: c33c422edf627374a944aebaa5dcfdca, type: 2}
+  - {fileID: 11400000, guid: c6e80c11ab14676479d92d51fc741904, type: 2}
+  - {fileID: 11400000, guid: b8afab44af99a6544b6da68202a731ff, type: 2}
+  - {fileID: 11400000, guid: 09f2d3cc1c3d3174db03fe8ed080b1ad, type: 2}
+  - {fileID: 11400000, guid: 05fd0eefaac8059418fa30d79ab46b16, type: 2}
+  - {fileID: 11400000, guid: b8ead5dad1105a740ba4d7f89692c2d3, type: 2}
+  - {fileID: 11400000, guid: 2f65c9d0f237f5b449fddbeb1d41acb4, type: 2}
+  - {fileID: 11400000, guid: 99bc80cb272fd814e879320087633fe2, type: 2}
+  - {fileID: 11400000, guid: 6e61bbdf1277f0748a26120cb934f615, type: 2}
+  - {fileID: 11400000, guid: 2bd83701dea1f7f479afdb9428e69e9f, type: 2}
+  - {fileID: 11400000, guid: 89b6a1f9c5f22e842899b6ed8612a19b, type: 2}
+  - {fileID: 11400000, guid: e7f1daaaa90c61849969661ad564b9b3, type: 2}
+  - {fileID: 11400000, guid: 1e11cd65d8188db458cecfe5cf4fa10d, type: 2}
+  CoreGameWinLevelTasks:
+  - {fileID: 11400000, guid: decce05759e60b0459acb16f8d051001, type: 2}
+  - {fileID: 11400000, guid: a7ba343ccaf267f4d8b55229757a0c44, type: 2}
+  - {fileID: 11400000, guid: 4f2a8518ff9509d42a0ffeb0d6a7741e, type: 2}
+  - {fileID: 11400000, guid: e37b28337b7b5a740be3d02df789a412, type: 2}
+  - {fileID: 11400000, guid: fcd1c895ed8378c4099fd8f3dc41a495, type: 2}
+  - {fileID: 11400000, guid: 33e77b831ef574345bb3e1e89a6384a0, type: 2}
+  - {fileID: 11400000, guid: 493862f1db0b9e343a2bd57a82b0ceec, type: 2}
+  - {fileID: 11400000, guid: fefbbccda9d291442aad4898f14fe65c, type: 2}
+  - {fileID: 11400000, guid: 4cac282bae973164cbd4c3bf2202ef75, type: 2}
+  - {fileID: 11400000, guid: 885965057038fc0439a70391b49481c4, type: 2}
+  - {fileID: 11400000, guid: 2d71ef6575c176f46a3391dd378fc9a4, type: 2}
+  - {fileID: 11400000, guid: e7b41c2a78f3ffb47adde6837528fe30, type: 2}
+  - {fileID: 11400000, guid: 6737cb7b858961d4d9bd7f93deadabe4, type: 2}
+  - {fileID: 11400000, guid: 8fb757739ba635846bd80de0512c1086, type: 2}
+  - {fileID: 11400000, guid: 9f880259865e4004e9b53f5840c4de7d, type: 2}
+  - {fileID: 11400000, guid: 5cddf3091dd2f91499d2c2830df544f2, type: 2}
+  - {fileID: 11400000, guid: 1e515d9df83ecdf4ea425dbaf40a1d12, type: 2}
+  - {fileID: 11400000, guid: 6d28b0a0e482ece4e8a7e0ab22de40cf, type: 2}
+  - {fileID: 11400000, guid: 147fbbca00770504aad2a03337134633, type: 2}
+  SnowDriftTasks:
+  - {fileID: 11400000, guid: d8c73772d32300646ba1af134cda63e7, type: 2}
+  - {fileID: 11400000, guid: 91c8c7e18d730294cb4b6d7efb2d756e, type: 2}
+  - {fileID: 11400000, guid: 07e30e870c71af442bb59221db52e5a6, type: 2}
+  RandomTasks:
+  - {fileID: 11400000, guid: cda52bcda5211a94f8fa3f778c1b03d0, type: 2}
+  - {fileID: 11400000, guid: 5ff1c963ee341ed49ab625dd8f08d588, type: 2}
+  - {fileID: 11400000, guid: 7601f802b3673d847a529d390d0fc822, type: 2}
+  - {fileID: 11400000, guid: 2339b158f588cfc4585a52528ba61037, type: 2}
+  - {fileID: 11400000, guid: 1b4654d6e79e6ba40b6f73439882af9e, type: 2}
+  - {fileID: 11400000, guid: aad81a99978e3b249929021b5db24706, type: 2}
+  - {fileID: 11400000, guid: 1f71154635508264e829aba4e540f1de, type: 2}
+  - {fileID: 11400000, guid: c381d9eb808751242a6db2a5c8bdd21b, type: 2}
+  - {fileID: 11400000, guid: 1181be9cbb196eb458325e0d38d3e9a5, type: 2}

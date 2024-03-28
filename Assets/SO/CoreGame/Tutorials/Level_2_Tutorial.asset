@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb9179df47c291f499e7944da0da3acf, type: 3}
+  m_Name: Level_2_Tutorial
+  m_EditorClassIdentifier: 
+  Tasks:
+  - Type: 3
+    Task:
+      rid: 6098448322740355078
+  PlayModeTaskTypes: 03000000
+  references:
+    version: 2
+    RefIds:
+    - rid: 6098448322740355078
+      type: {class: ButtonTask, ns: CoreGame.SO, asm: Assembly-CSharp}
+      data:
+        ButtonId: 1
+        Help:
+        - State: 1
+          BubbleSize: 0
+          Text: "<color=orange>\u041F\u0435\u0440\u0435\u043C\u0435\u0448\u0438\u0432\u0430\u043D\u0438\u0435</color>
+            \u043F\u0435\u0440\u0435\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u0442\n\u0432\u0441\u0435
+            \u043F\u0440\u0435\u0434\u043C\u0435\u0442\u044B \u0432 \u043A\u043E\u0440\u043E\u0431\u043A\u0430\u0445\n\u0432
+            \u0441\u043B\u0443\u0447\u0430\u0439\u043D\u043E\u043C \u043F\u043E\u0440\u044F\u0434\u043A\u0435"

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9a0b0f0147ba1f4fbf4bc98973b2ed4, type: 3}
+  m_Name: AudioEventData_PresentClick
+  m_EditorClassIdentifier: 
+  Type: 26
+  Clips:
+  - {fileID: 8300000, guid: 5bb518d2ddc259945b3e0c3f525466d8, type: 3}
+  - {fileID: 8300000, guid: df5380d737c9d8e40ba7fe3174db79ed, type: 3}
+  - {fileID: 8300000, guid: b20d5fd6d5b40354f8ce634d3b562d1f, type: 3}
+  - {fileID: 8300000, guid: 38d58bcd7bd67c5498b485c340db75f4, type: 3}
+  - {fileID: 8300000, guid: c8dd428c59a2750459c9d8134482f04b, type: 3}
+  - {fileID: 8300000, guid: 7e43dcaf011ea494683804d80c0fe414, type: 3}
+  Volume:
+    MinValue: 1
+    MaxValue: 1
+  Pitch:
+    MinValue: 1
+    MaxValue: 1

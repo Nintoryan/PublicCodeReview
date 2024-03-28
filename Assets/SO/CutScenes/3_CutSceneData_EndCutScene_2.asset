@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bae9c0d70e24662b1388aba936f7eec, type: 3}
+  m_Name: 3_CutSceneData_EndCutScene_2
+  m_EditorClassIdentifier: 
+  ID: 3
+  PresentBox: {fileID: 0}
+  Condition:
+    Type: 16
+    Value: 2
+    ValueString: 
+  CameraIsStayOnCurrentPosition: 0
+  CameraIsBackStartPos: 0
+  IsUnblockCharacters: 0
+  IsIgnoreCutSceneList: 0
+  StartCurtain: 1
+  CharacterData:
+  - Character: 20
+    CharacterPosition: {x: -15.55, y: -5.1}
+    IsUp: 0
+    isLeft: 0
+  - Character: 27
+    CharacterPosition: {x: -10.2, y: -5.1}
+    IsUp: 0
+    isLeft: 1
+  Replicas:
+  - Character: 20
+    CharacterReaction: 0
+    PortraitReaction: 0
+    CustomAction: 10
+    Camera:
+      PositionByBuildingID: -1
+      Position: {x: -13.16, y: -2.73}
+      Zoom: 8
+    Text: "\u0427\u0442\u043E \u0436, \u043F\u043E\u043B\u0434\u0435\u043B\u0430
+      \u0441\u0434\u0435\u043B\u0430\u043D\u043E.\n\u041C\u044B \u043C\u043E\u043B\u043E\u0434\u0446\u044B."
+  - Character: 27
+    CharacterReaction: 0
+    PortraitReaction: 0
+    CustomAction: 0
+    Camera:
+      PositionByBuildingID: -1
+      Position: {x: -13.16, y: -2.73}
+      Zoom: 8
+    Text: "\u0410 \u0434\u0430\u043B\u044C\u0448\u0435 \u0447\u0442\u043E? \u041F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u0448\u044C
+      \u0413\u0440\u0435\u043B\u043A\u0438\u043D\u0443\n\u0432 \u0441\u0443\u0433\u0440\u043E\u0431\u0435
+      \u043F\u0438\u0441\u044C\u043C\u0430 \u0441\u043E\u0440\u0442\u0438\u0440\u043E\u0432\u0430\u0442\u044C?"
+  - Character: 20
+    CharacterReaction: 0
+    PortraitReaction: 0
+    CustomAction: 0
+    Camera:
+      PositionByBuildingID: -1
+      Position: {x: -13.16, y: -2.73}
+      Zoom: 8
+    Text: "\u0414\u0435\u0434\u0443\u0448\u043A\u0430, \u043D\u0435 \u0431\u0443\u0434\u044C
+      \u0442\u0430\u043A\u0438\u043C \u0441\u043A\u0435\u043F\u0442\u0438\u0447\u043D\u044B\u043C.\n[\u0418\u043C\u044F],
+      \u043D\u0430\u043C \u043D\u0443\u0436\u043D\u043E \u0435\u0449\u0435 \u043E\u0434\u043D\u043E
+      \u0447\u0443\u0434\u043E."
+  EndAction: 3

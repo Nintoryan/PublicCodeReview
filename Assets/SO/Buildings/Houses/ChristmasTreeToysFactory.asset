@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f62f1050693043fbaee25160d92d8331, type: 3}
+  m_Name: ChristmasTreeToysFactory
+  m_EditorClassIdentifier: 
+  Type: 1
+  ID: 13
+  Prefab: {fileID: 4370055578314634916, guid: 1b5202012fc7c004c8657345eac87ad6, type: 3}
+  PresentationModel:
+    Name: "\u0424\u0430\u0431\u0440\u0438\u043A\u0430 \u0451\u043B\u043E\u0447\u043D\u044B\u0445
+      \u0438\u0433\u0440\u0443\u0448\u0435\u043A"
+    Description: "\u0413\u043E\u0432\u043E\u0440\u044F\u0442, \u043F\u043E \u043D\u043E\u0447\u0430\u043C
+      \u0438\u0433\u0440\u0443\u0448\u043A\u0438 \u043E\u0436\u0438\u0432\u0430\u044E\u0442
+      \L\u0438 \u0432\u043E\u0434\u044F\u0442 \u0445\u043E\u0440\u043E\u0432\u043E\u0434\u044B
+      \u0432\u043E\u043A\u0440\u0443\u0433 \u0451\u043B\u043A\u0438..."
+    Price: 15
+    RatingAfterConstruction: 3000
+    RatingPerHour: 0
+    Icon: {fileID: 21300000, guid: c9815e98d60cbfe4d9cbdbc4edad8a85, type: 3}
+    BigIcon: {fileID: 11400000, guid: f50c8482f2d5e00498bc02bfb47b49f0, type: 2}
+  MainerData:
+    RatingPerCooldown: 0
+    CooldownMinutes: 0
+  Characters: 12000000

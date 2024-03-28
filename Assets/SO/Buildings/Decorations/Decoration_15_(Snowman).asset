@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f62f1050693043fbaee25160d92d8331, type: 3}
+  m_Name: Decoration_15_(Snowman)
+  m_EditorClassIdentifier: 
+  Type: 2
+  ID: 15
+  Prefab: {fileID: 8034945087558691213, guid: c1e56497365c90849a809992c9f30705, type: 3}
+  PresentationModel:
+    Name: "\u041C\u0443\u0437\u044B\u043A\u0430\u043B\u044C\u043D\u044B\u0439\L\u0441\u043D\u0435\u0433\u043E\u0432\u0438\u043A"
+    Description: "\u0421\u043A\u0443\u043B\u044C\u043F\u0442\u0443\u0440\u0430 \u0434\u0440\u0443\u0433\u0430
+      \u0417\u0430\u0439\u0447\u0438\u0448\u043A\u0438 \u2014 \n\u0431\u0430\u0440\u0430\u0431\u0430\u043D\u0449\u0438\u043A\u0430
+      \u0421\u043D\u0435\u0433\u043E\u0432\u0438\u0447\u043A\u0430"
+    Price: 7
+    RatingAfterConstruction: 20
+    RatingPerHour: 0
+    Icon: {fileID: 21300000, guid: a96ada9f84975274a8127140318828d1, type: 3}
+  MainerData:
+    RatingPerCooldown: 0
+    CooldownMinutes: 0
+  Characters: 

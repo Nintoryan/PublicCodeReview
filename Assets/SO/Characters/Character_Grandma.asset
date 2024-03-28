@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d302002b073b4cce905dfc2dbca8bf38, type: 3}
+  m_Name: Character_Grandma
+  m_EditorClassIdentifier: 
+  Type: 26
+  PresentationModel:
+    Name: "\u0411\u0430\u0431\u0443\u0448\u043A\u0430"
+    Color:
+      serializedVersion: 2
+      rgba: 4281443055
+    PortraitBody: {fileID: 21300000, guid: e7c05eb69e5029b46a6d8ea6918b145e, type: 3}
+    PortraitEmotions:
+    - Reaction: 0
+      Sprite: {fileID: 21300000, guid: 211014102c8a4e24484bb528aa0ceddc, type: 3}
+    - Reaction: 1
+      Sprite: {fileID: 21300000, guid: 09c88a4befb60a64c98c43dca5721fbd, type: 3}
+    - Reaction: 2
+      Sprite: {fileID: 21300000, guid: 94df73570b43a274795cff5820899cb8, type: 3}
+    - Reaction: 3
+      Sprite: {fileID: 21300000, guid: b4be11ac8937fea4b8c6d9ca685514ad, type: 3}

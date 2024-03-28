@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3502650730393766727
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3502650730393766726}
+  - component: {fileID: 3502650730393766725}
+  m_Layer: 0
+  m_Name: Installer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3502650730393766726
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3502650730393766727}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3502650730393766725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3502650730393766727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caafd25da0654dcb988ff25f8747ec92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentReference:
+    TypeName: 
+  autoRun: 1
+  autoInjectGameObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _buildingsConfig: {fileID: 11400000, guid: b90ed57a789da1b44ba4e5d8f7365cf6, type: 2}
+  _tilesConfig: {fileID: 11400000, guid: 9fcf1702f5966024f9353196b8fd5f80, type: 2}
+  _progressionConfig: {fileID: 11400000, guid: 3f073529faa7d4442991f004c6b38c50, type: 2}
+  _playerPrefsConfig: {fileID: 11400000, guid: 9ca09bc294f38a644a8688b2b69ee30a, type: 2}
+  _dailyVisitPresentsConfig: {fileID: 11400000, guid: 04622248188f36d46a5b6bcfb91b19e4, type: 2}
+  _presentBoxesConfig: {fileID: 11400000, guid: f7b2e56c38e113243a620da8ceee3afc, type: 2}
+  _charactersConfig: {fileID: 11400000, guid: 93ea7bfae50e27c46b29046655ccbdf7, type: 2}
+  _cutSceneConfig: {fileID: 11400000, guid: ccefcb175fbde7b46aa9d66ca72e2cab, type: 2}
+  _dailyTasksConfig: {fileID: 11400000, guid: b1ca00d7f74a63842bd5c375a414e1c2, type: 2}
+  _audioConfig: {fileID: 11400000, guid: 4c683e45f5bf0714a8cf3643be5ae7b3, type: 2}
+  _energyConfig: {fileID: 11400000, guid: 7823b7adb6eb44240abf0995b76d83c9, type: 2}
+  _vfxConfig: {fileID: 11400000, guid: 252dd69852bd5d64c8363e7b627d3bcf, type: 2}
+  _newYearProjectsDatabase: {fileID: 11400000, guid: 55e47765b28f60f47b9a3c2556451e9f, type: 2}
+  _levelDatabase: {fileID: 11400000, guid: 70bdb5bce1e478a499521382a3a3b5dd, type: 2}
+  _dodoBirdsGiftsConfig: {fileID: 11400000, guid: 9c155a059750c234aab739865dc6aa0b, type: 2}

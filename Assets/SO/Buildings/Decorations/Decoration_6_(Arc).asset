@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f62f1050693043fbaee25160d92d8331, type: 3}
+  m_Name: Decoration_6_(Arc)
+  m_EditorClassIdentifier: 
+  Type: 2
+  ID: 6
+  Prefab: {fileID: 4901324987138155844, guid: cc25e3b4fdef4e24f9c8aa42a85cece5, type: 3}
+  PresentationModel:
+    Name: "\u041D\u043E\u0432\u043E\u0433\u043E\u0434\u043D\u044F\u044F\L\u0430\u0440\u043A\u0430"
+    Description: "\u041E\u0441\u0442\u043E\u0440\u043E\u0436\u043D\u043E: \u044F\u0433\u043E\u0434\u044B
+      \u0438 \u0448\u0438\u0448\u043A\u0438 \n\u043D\u0435 \u0441\u044A\u0435\u0434\u043E\u0431\u043D\u044B\u0435!"
+    Price: 3
+    RatingAfterConstruction: 10
+    RatingPerHour: 0
+    Icon: {fileID: 21300000, guid: 52cc41d18debeb942a0c6049b6174145, type: 3}
+  MainerData:
+    RatingPerCooldown: 0
+    CooldownMinutes: 0
+  Characters: 

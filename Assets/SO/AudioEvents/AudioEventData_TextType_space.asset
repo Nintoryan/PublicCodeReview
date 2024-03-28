@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9a0b0f0147ba1f4fbf4bc98973b2ed4, type: 3}
+  m_Name: AudioEventData_TextType_space
+  m_EditorClassIdentifier: 
+  Type: 5
+  Clips:
+  - {fileID: 8300000, guid: d5922db5efc03e7478d4311c1ca3b318, type: 3}
+  - {fileID: 8300000, guid: c9d7aef3d0fe49343af1b727e42e35fa, type: 3}
+  - {fileID: 8300000, guid: 15d8b6a717fe3a9408d431285e98de62, type: 3}
+  Volume:
+    MinValue: 0.83143866
+    MaxValue: 1
+  Pitch:
+    MinValue: 0.77077234
+    MaxValue: 1.5217562

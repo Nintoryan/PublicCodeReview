@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bb673082ffe4e44940528fdfc500424, type: 3}
+  m_Name: 14_PresentBoxData_GlassBlower_15.1.24
+  m_EditorClassIdentifier: 
+  ID: 2
+  Title: "\u043E\u0442 \u0418\u0433\u0440\u0443\u0448\u0435\u0447\u043D\u043E\u0433\u043E
+    \u041C\u0430\u0441\u0442\u0435\u0440\u0430"
+  BoxSprite: {fileID: 21300000, guid: 34be2d88d2527bb40bb61e8fbcfbe180, type: 3}
+  OpenBoxSprite: {fileID: 21300000, guid: 48e8cba53ad0edb4da14d74c68465f22, type: 3}
+  OpenDate:
+    Day: 15
+    Month: 1
+    Year: 2024
+  PresentValue: {fileID: 11400000, guid: 366097dea15338d4b86d2d41ca335e72, type: 2}

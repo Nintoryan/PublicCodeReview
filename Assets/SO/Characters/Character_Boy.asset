@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d302002b073b4cce905dfc2dbca8bf38, type: 3}
+  m_Name: Character_Boy
+  m_EditorClassIdentifier: 
+  Type: 7
+  PresentationModel:
+    Name: "\u0421\u043B\u0430\u0434\u043A\u043E\u0435\u0436\u043A\u0430 \u0414\u0430\u043D\u044F"
+    Color:
+      serializedVersion: 2
+      rgba: 4285760654
+    PortraitBody: {fileID: 21300000, guid: f4c42376b2a37de4db0e72d188ed2cce, type: 3}
+    PortraitEmotions:
+    - Reaction: 0
+      Sprite: {fileID: 21300000, guid: 80d336d2ee566da4883f54f03e701736, type: 3}

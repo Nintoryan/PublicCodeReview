@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bae9c0d70e24662b1388aba936f7eec, type: 3}
+  m_Name: 16_CutSceneData_BuildHouse_DanceFloor
+  m_EditorClassIdentifier: 
+  ID: 16
+  PresentBox: {fileID: 11400000, guid: a0c4c1bd1117e8440be76285f2be61d9, type: 2}
+  Condition:
+    Type: 1
+    Value: 12
+    ValueString: 
+  CameraIsStayOnCurrentPosition: 0
+  CameraIsBackStartPos: 0
+  IsUnblockCharacters: 1
+  IsIgnoreCutSceneList: 0
+  IsCharacterTeleportToPosition: 1
+  CurtainParams:
+    IsShowOnStart: 0
+    Text: 
+  StartAction: 0
+  CharacterData:
+  - Character: 20
+    CharacterPosition: {x: -15.54, y: -1.65}
+    IsUp: 0
+    isLeft: 0
+  - Character: 27
+    CharacterPosition: {x: -10.75, y: -1.65}
+    IsUp: 0
+    isLeft: 1
+  - Character: 11
+    CharacterPosition: {x: -10.75, y: -1.65}
+    IsUp: 0
+    isLeft: 1
+  Replicas:
+  - Character: 27
+    CharacterReaction: 0
+    PortraitReaction: 0
+    CustomAction: 0
+    Camera:
+      PositionByBuildingID: 12
+      Position: {x: -13.16, y: -2.73}
+      Zoom: 8
+    Text: "\u0412\u043E\u0442 \u0438 \u0441\u043B\u0430\u0432\u043D\u0435\u043D\u044C\u043A\u043E!
+      \u0412\u0441\u0435\u0439 \u0414\u0435\u0440\u0435\u0432\u043D\u0435\u0439\n\u043F\u043E\u0434
+      \xAB\u0412 \u043B\u0435\u0441\u0443 \u0440\u043E\u0434\u0438\u043B\u0430\u0441\u044C
+      \u0451\u043B\u043E\u0447\u043A\u0430\xBB\n\u043E\u0442\u043F\u043B\u044F\u0441\u044B\u0432\u0430\u0442\u044C
+      \u0431\u0443\u0434\u0435\u043C!"
+  - Character: 27
+    CharacterReaction: 0
+    PortraitReaction: 1
+    CustomAction: 0
+    Camera:
+      PositionByBuildingID: 12
+      Position: {x: -13.16, y: -2.73}
+      Zoom: 8
+    Text: "\u041D\u0430\u0441\u0442\u043E\u044F\u0449\u0438\u0439 \u0413\u043E\u043B\u0443\u0431\u043E\u0439
+      \u043E\u0433\u043E\u043D\u0451\u043A!"
+  - Character: 20
+    CharacterReaction: 0
+    PortraitReaction: 1
+    CustomAction: 0
+    Camera:
+      PositionByBuildingID: 12
+      Position: {x: -13.16, y: -2.73}
+      Zoom: 8
+    Text: "\u0410\u0433\u0430, c \u043D\u0430\u0441\u0442\u043E\u044F\u0449\u0438\u043C\u0438
+      \u0437\u0432\u0435\u0437\u0434\u0430\u043C\u0438."
+  - Character: 11
+    CharacterReaction: 0
+    PortraitReaction: 0
+    CustomAction: 0
+    Camera:
+      PositionByBuildingID: 12
+      Position: {x: -13.16, y: -2.73}
+      Zoom: 8
+    Text: "\u041A\u0442\u043E-\u0442\u043E \u0441\u043A\u0430\u0437\u0430\u043B \u0437\u0432\u0435\u0437\u0434\u044B?\n\u042F
+      \u2014 \u043D\u0430\u0441\u0442\u043E\u044F\u0449\u0430\u044F \u0437\u0432\u0435\u0437\u0434\u0430
+      \u0442\u0430\u043D\u0446\u043F\u043E\u043B\u0430!"
+  - Character: 20
+    CharacterReaction: 0
+    PortraitReaction: 0
+    CustomAction: 0
+    Camera:
+      PositionByBuildingID: 12
+      Position: {x: -13.16, y: -2.73}
+      Zoom: 8
+    Text: "\u041A\u0441\u0442\u0430\u0442\u0438, \u043F\u043E \u043F\u043E\u0432\u043E\u0434\u0443
+      \u0437\u0432\u0451\u0437\u0434.\n\u0423 \u043D\u0430\u0441 \u043D\u0435\u0442
+      \u043D\u043E\u0432\u043E\u0433\u043E\u0434\u043D\u0435\u0439 \u0437\u0432\u0435\u0437\u0434\u044B\n\u0434\u043B\u044F
+      \u0451\u043B\u043A\u0438."
+  - Character: 11
+    CharacterReaction: 0
+    PortraitReaction: 0
+    CustomAction: 0
+    Camera:
+      PositionByBuildingID: 12
+      Position: {x: -13.16, y: -2.73}
+      Zoom: 8
+    Text: "\u042F, \u043A\u043E\u043D\u0435\u0447\u043D\u043E, \u0437\u0432\u0435\u0437\u0434\u0430...\n\u041D\u043E
+      \u043D\u0430 \u0451\u043B\u043A\u0443 \u043D\u0435 \u043F\u043E\u043B\u0435\u0437\u0443!"
+  - Character: 27
+    CharacterReaction: 0
+    PortraitReaction: 0
+    CustomAction: 0
+    Camera:
+      PositionByBuildingID: 12
+      Position: {x: -13.16, y: -2.73}
+      Zoom: 8
+    Text: "\u042D\u0442\u043E \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043B\u044C\u043D\u043E
+      \u043F\u0440\u043E\u0431\u043B\u0435\u043C\u0430.\n\u041D\u0443\u0436\u043D\u043E,
+      \u0447\u0442\u043E\u0431\u044B \u0432 \u043A\u0430\u0436\u0434\u043E\u043C
+      \u0434\u043E\u043C\u0435\n\u0431\u044B\u043B\u0430 \u0451\u043B\u043A\u0430
+      \u0438 \u043D\u043E\u0432\u043E\u0433\u043E\u0434\u043D\u0438\u0435 \u0438\u0433\u0440\u0443\u0448\u043A\u0438."
+  - Character: 20
+    CharacterReaction: 0
+    PortraitReaction: 1
+    CustomAction: 0
+    Camera:
+      PositionByBuildingID: 12
+      Position: {x: -13.16, y: -2.73}
+      Zoom: 8
+    Text: "\u0412\u044B\u0437\u043E\u0432 \u043F\u0440\u0438\u043D\u044F\u0442!"
+  EndAction: 0

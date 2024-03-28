@@ -1,0 +1,47 @@
+﻿namespace CoreGame.Data
+{
+    public enum ObjectType
+    {
+        None,
+        Bear,
+        Bird,
+        Bunny,
+        Candle,
+        Candy,
+        CandyRound,
+        CandyTwin,
+        DeadMoroz,
+        Deer,
+        Dodster,
+        Dragon,
+        GingerMan,
+        GingerSanta,
+        Ice,
+        JuiceBottle,
+        JuiceBottleBow,
+        JuiceCanister,
+        MilkBottle,
+        MilkBottleBow,
+        MilkCanister,
+        MugOrange,
+        MugRed,
+        OrangeBig,
+        OrangeSmall,
+        PizzaPiece,
+        Santa,
+        SnowGirl,
+        SnowMan,
+        SockGreen,
+        SockRed,
+        Wolf,
+        Wreath,
+        XmasTreeTall,
+        XmasTreeToyBlue,
+        XmasTreeToyOrange,
+        XmasTreeWide,
+
+        RedBall,
+        GreenBall,
+        BlueBall
+    }
+}
